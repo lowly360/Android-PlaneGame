@@ -32,14 +32,18 @@ Android 游戏--- 一款飞机小游戏
 				}
 			}
 
+## 部分类说明
+	Boom.java 是子弹碰到敌机后的爆炸动画
+	Boss.java 敌人boss机的绘制以及行为逻辑等等
+	Bullet.java 子弹的绘制以及其移动逻辑
+	Enemy.java 普通敌机绘制以及逻辑（AI），不同敌机类型有不同逻辑
+	GameBg.java 背景移动的逻辑，分为云层，以及最底层的背景移动逻辑
+	GameMenu.java 菜单按钮的逻辑
+	
+	//更详细就查看源码把，其实比较简单入门
+
 ## 部分截图
 
-<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/menu.png" width = "240" height = "360" alt="菜单" align=center />
+<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/menu.png" width = "240" height = "360" alt="菜单" align=center /><img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/menu_stop.png" width = "240" height = "360" alt="" align=center /><img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/play1.png" width = "240" height = "360" alt="" align=center />
 
-<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/menu_stop.png" width = "240" height = "360" alt="" align=center />
-
-<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/play1.png" width = "240" height = "360" alt="" align=center />
-
-<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/play2.png" width = "240" height = "360" alt="" align=center />
-
-<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/play3.png" width = "240" height = "360" alt="" align=center />
+<img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/play2.png" width = "240" height = "360" alt="" align=center /><img src="https://raw.githubusercontent.com/lowly360/PlaneGame/18226060f505bc2cc989618e28f0d8e91ea7910d/srceenshot/play3.png" width = "240" height = "360" alt="" align=center />
